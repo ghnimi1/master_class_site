@@ -1,0 +1,56 @@
+#carouselExampleControlss{
+    min-height: 400px;  
+}
+#carousel-item{
+    margin-top: 30px;
+}
+#carousel-inner{
+    width:80%;
+    margin:auto
+}
+.card img{
+     min-width: 150px;
+     height: 150px ;
+     border-radius:50%;
+     padding: 5px;
+     border-top-right-radius: 0px;
+}
+.card {
+display: flex;
+flex-direction: row;
+align-items: center;
+min-height: 300px;
+}
+.card:hover{
+   position: relative;
+   top: -5px;
+left: 0px;
+    }
+.card .info{
+     width: 150px;
+     height: 150px ;
+     border-radius:50%;
+     border: 1px solid #ffaa1f;
+     margin-left: 5px;
+     border-top-right-radius: 0px;
+}
+.card-deck .card-body{
+    margin: 10px;
+}
+#temoignage{
+    display:flex;
+    justify-content: space-between;
+    flex-direction:column;
+    align-items:center;
+    margin-top: 40px;
+    background-color:#ffaa1f ;
+}
+#temoignage > div >h2{
+    margin-top: 40px;
+}
+
+.bottom-line {
+    width: 50px;
+    height: 3px;
+    background-color:#80b6f1;
+}

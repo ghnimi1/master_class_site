@@ -1,0 +1,45 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #404040;
+    color: white;
+    text-align: center;
+}
+.lien{
+    padding:5px 0px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.lien .socialmedia,.lien .adress{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: center;
+    width: 60%;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.lien .socialmedia i,.lien .adress i{
+color: #ffaa1f;
+padding: 5px;
+}
+.lien .socialmedia span,.lien .adress span{
+    color: #ccc;
+    margin: 10px;
+}
+.lien .socialmedia p,.lien .adress p{
+    font-weight: bold;
+    font-size: 20px;
+    float: left;
+    }
+.copyright{
+    text-align: center;
+    width: 100%;
+    background-color:#24252f ;
+    padding: 20px;
+}
+.copyright span{
+    color: #ffaa1f;
+}

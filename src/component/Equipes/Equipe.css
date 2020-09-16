@@ -1,0 +1,22 @@
+#equipe{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    margin-top:30px;
+}
+#equipe .for{    
+    border: 1px solid steelblue;   
+    border-radius: 50%;
+    text-align: center;
+    color: #ffaa1f;
+    margin: auto;    
+    margin-bottom: 20px;
+    background-color:white;
+}
+#equipe .for img{
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    border-radius: 50%;
+}

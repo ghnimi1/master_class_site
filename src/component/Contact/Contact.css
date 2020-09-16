@@ -1,0 +1,33 @@
+#contact{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+#inputtext{
+    display: flex;
+    flex-direction: column;
+}
+#inputtext input{
+    width: 90%;
+    margin: 10px 0px;
+    padding: 3px;
+    background: #fafafa;
+    border: 1px solid rgba(119, 81, 81, 0.34);
+}
+#inputtext button{
+    width: 50%;
+    margin: 5px 0px;
+    padding: 5px;
+    background: #ffaa1f;
+    border: 1px solid rgba(119, 81, 81, 0.34);
+    color: white;
+    font-weight: bold;
+}
+#textarea textarea{
+    width: 90%;
+    height: 100px;
+    margin-top: 10px;
+    background: #fafafa;
+    border: 1px solid rgba(119, 81, 81, 0.34);
+}

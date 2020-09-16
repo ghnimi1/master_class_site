@@ -1,0 +1,10 @@
+#service{
+    display:flex;
+    flex-direction: row;
+}
+.card-ite{
+    margin:  0px  30px;
+}
+#service i{
+    color: #ffaa1f;
+}
